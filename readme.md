@@ -11,6 +11,8 @@ The following is used out of the box with this setup:
 - Redis for cache
 
 ## Run
+For power shell:
+$Env:COMPOSE_CONVERT_WINDOWS_PATHS=1
 
 You'll want to copy the `.env.example` file to `.env` like usual. Run `composer install` to install dependencies and that should be it for the app.
 
